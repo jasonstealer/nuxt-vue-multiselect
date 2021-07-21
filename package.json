@@ -1,15 +1,16 @@
 {
-  "name": "nuxt-vue-multiselect",
+  "name": "@jasonstealer/nuxt-vue-multiselect",
   "version": "1.0.4",
   "description": "Leverage vue-multiselect",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Spektrum Média <geeks@spektrummedia.com>"
-    }
+    "Jason <jasonstealer@gmail.com.com>"
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/spektrummedia/nuxt-vue-multiselect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonstealer/nuxt-vue-multiselect.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -24,8 +25,7 @@
   ],
   "dependencies": {
     "core-js": "^2.6.5",
-    "nuxt-vue-multiselect": "git+https://git@github.com/jasonstealer/nuxt-vue-multiselect.git",
-    "vue-multiselect": "git+https://git@github.com/jasonstealer/vue-multiselect.git"
+    "@jasonstealer/vue-multiselect": "2.1.7"
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -51,5 +51,15 @@
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jasonstealer/nuxt-vue-multiselect/issues"
+  },
+  "homepage": "https://github.com/jasonstealer/nuxt-vue-multiselect#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "jasonstealer"
 }
