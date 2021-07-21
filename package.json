@@ -24,7 +24,8 @@
   ],
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue-multiselect": "^2.1.6"
+    "nuxt-vue-multiselect": "git+https://git@github.com/jasonstealer/nuxt-vue-multiselect.git",
+    "vue-multiselect": "git+https://git@github.com/jasonstealer/vue-multiselect.git"
   },
   "devDependencies": {
     "@babel/core": "latest",
